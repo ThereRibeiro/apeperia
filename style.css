@@ -1,4 +1,4 @@
-cabecalho {
+.cabecalho {
   position: absolute;
   top: -2.5em;
   left: 50%;
@@ -8,6 +8,7 @@ cabecalho {
   border-bottom: 1px solid #103d4a;
   padding-bottom: .5em
 }
+
 .cabecalho-logo {
   margin-bottom: .2em;
 }
@@ -23,9 +24,9 @@ cabecalho {
 .cabecalho-nav-item a {
   text-decoration: none;
   color: #fff;
-  font-family: 'Open Sans',serif;
+  font-family: 'Open Sans', serif;
+
 }
-secaoDestaque {
+.secaoDestaque {
     background-image: url(bg-intro.jpg);
   }
-

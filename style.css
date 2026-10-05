@@ -20,3 +20,8 @@ cabecalho {
   margin: 0 .5em;
   font-size: .95em;
 }
+.cabecalho-nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'open sans',serif;
+}

@@ -1,4 +1,4 @@
-.*{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +25,7 @@
 .cabecalho-nav-item {
   color: white;
   display: inline-block;
-  line-height: 2;
+  line-height: 2;s
   margin: 0 .5em;
   font-size: 16px;
 }

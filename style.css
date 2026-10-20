@@ -37,7 +37,7 @@
 .cabecalho-nav-item a:hover{
   color: #d45b68;
 }
-.conteudo {
+.conteudo{
   height: 600px;
     background-image: url("bg-intro.jpg");
     background-size: cover;
@@ -46,7 +46,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
+}
 
   .secaoDestaque{
     width: 80%;

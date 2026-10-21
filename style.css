@@ -37,16 +37,16 @@
 .cabecalho-nav-item a:hover{
   color: #d45b68;
 }
-.conteudo{
-  height: 600px;
-    background-image: url("bg-intro.jpg");
+.conteudo {
+    width: 100%;
+    padding: 100px 0;
+    background-image: url("img/bg-intro.jpg"); 
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    text-align: center; 
+    box-sizing: border-box;
 }
+
 
   .secaoDestaque{
     width: 80%;
@@ -82,121 +82,4 @@
 .btnPadrao:focus {
   background-image: linear-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .05));
   cursor: pointer;
-.secaoSobre {
-  color: #4F4C4C;
-}
-
-.secaoDiferenciais {
-    background-color: #ffffff;
-    width: 100%;
-    padding: 60px 0;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.diferenciais {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 30px;
-}
-
-.diferenciais-diferencial {
-    flex: 1;
-    text-align: center;
-}
-
-.diferenciais-diferencial div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.diferenciais-diferencial h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    margin-top: 10px;
-    color: #333;
-}
-
-.diferenciais-diferencial p {
-    color: #666;
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-
-
-.secaoSobre {
-    background-color: #ffffff;
-    width: 100%;
-    padding: 60px 0;
-}
-
-.sobre-flex {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.sobre-conteudo {
-    flex: 1.2;
-    text-align: left;
-}
-
-.sobre-titulo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.sobre-destaque {
-    font-size: 1.1rem;
-    color: #444;
-    margin-bottom: 15px;
-}
-
-.sobre-texto {
-    line-height: 1.6;
-    color: #666;
-    margin-bottom: 15px;
-}
-
-.sobre-chamada {
-    color: #222;
-    margin-bottom: 25px;
-}
-
-.sobre-imagem-bloco {
-    flex: 1;
-}
-
-.sobre-imagem {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-.plataformas {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 10px;
-}
-
-.plataforma-icone {
-    height: 30px;
-    width: auto;
-}
-
-.plataformas-texto {
-    font-size: 0.85rem;
-    color: #777;
 }

@@ -50,18 +50,6 @@ header nav ul {
     padding: 0 !important;
 }
 
-
-header nav ul {
-    display: flex !important;
-    flex-direction: row !important;
-    gap: 30px !important;
-    list-style: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-}
-
 .cabecalho-nav-item {
   color: white;
   display: inline-block;

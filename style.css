@@ -17,11 +17,27 @@
   width: 170px;
   margin-bottom: .2em;
 }
-.cabecalho-nav {
-  display: flex;
-  gap: 30px;
-  text-align: center;
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
 }
+
+.cabecalho-nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho-nav-item {
   color: white;
   display: inline-block;
@@ -55,6 +71,7 @@
   }
   .conteudo h1{
     color: white;
+     font-family: 'Montserrat', sans-serif;
     font-size: 58px;
     font-weight: bold;
     margin-bottom: 50px;

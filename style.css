@@ -82,4 +82,4 @@
 .btnPadrao:focus {
   background-image: linear-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .05));
   cursor: pointer;
-};;
+}

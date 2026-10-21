@@ -17,6 +17,12 @@
   width: 170px;
   margin-bottom: .2em;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -26,9 +32,24 @@
     top: 0;
     left: 0;
     width: 100%;
-    box-sizing: border-box;
     z-index: 10;
+    background-color: transparent; 
 }
+
+.cabecalho-logo {
+    width: 170px;
+    margin-bottom: .2em;
+}
+
+header nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 30px !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 
 header nav ul {
     display: flex !important;

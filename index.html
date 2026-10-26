@@ -1,42 +1,111 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apeperia</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Open+Sans:300,400,700" rel="stylesheet">
-</head>
-<body>
-    <header class="cabecalho container">  
-       <img src="img/logo-apeperia.svg" alt="Logo Apeperia" class="cabecalho-logo">         
-        <nav class="cabecalho-nav">
-            <ul>
-                <li class="cabecalho-nav-item"><a href="#">Sobre</a></li>
-                <li class="cabecalho-nav-item"><a href="#">Planos</a></li>
-                <li class="cabecalho-nav-item"><a href="#">Blog</a></li>
-                <li class="cabecalho-nav-item"><a href="#">Destaques</a></li>
-                <li class="cabecalho-nav-item"><a href="#">Institucional</a></li>
-                <li class="cabecalho-nav-item"><a href="#">Contato</a></li>
-            </ul>  
+<header class="cabecalho">
+    <div class="container">
+        
+        <img src="img/logo-apeperia.svg" alt="Apeperia" class="cabecalho__logo">
+        
+        <nav class="cabecalho__navegacao">
+            <a href="#" class="cabecalho__link">Sobre</a>
+            <a href="#" class="cabecalho__link">Planos</a>
+            <a href="#" class="cabecalho__link">Blog</a>
+            <a href="#" class="cabecalho__link">Destaques</a>
+            <a href="#" class="cabecalho__link">Institucional</a>
+            <a href="#" class="cabecalho__link">Contato</a>
         </nav>
-    </header>
+    </div>
+</header>
 
-    <main class="conteudo"> 
-        <section class = "secaoDestaque">
-            <h1 class="secaoDestaque-titulo"> APLICATIVOS NA MEDIDA </h1>
-            <p class="secaoDestaque-texto">
-        A Apeperia é uma startup com um jeito inovador de comprar e montar aplicativos mobile e web para pequenas e médias empresas
-            </p>
-            <button class="btnPadrao">
-            Conheça os planos
-            </button>    
-        </section>
-    </main>
+<section class="hero">
+    <div class="hero__conteudo">
+        <h1 class="hero__titulo">APLICATIVOS NA MEDIDA</h1>
+        <p class="hero__texto">A Apeperia é uma startup com um jeito inovador de comprar e montar aplicativos mobile e web para pequenas e médias empresas.</p>
+        <a href="#" class="hero__botao">Conheça os planos</a>
+    </div>
+</section>
 
-    <footer class="rodape">   
-
-    </footer> 
-
-</body>
 </html>
+<section class="beneficios">
+    <div class="container beneficios__container">
+        <div class="beneficio__item">
+            <div class="beneficio__icone beneficio__icone--tempo"></div>
+            <h3 class="beneficio__titulo">TEMPO</h3>
+            <p class="beneficio__texto">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente os prazos.</p>
+        </div>
+        
+        <div class="beneficio__item">
+            <div class="beneficio__icone beneficio__icone--foco"></div>
+            <h3 class="beneficio__titulo">FOCO</h3>
+            <p class="beneficio__texto">Focado no empreendedor, oferecemos serviços de qualidade com preços acessíveis.</p>
+        </div>
+        
+        <div class="beneficio__item">
+            <div class="beneficio__icone beneficio__icone--especialistas"></div>
+            <h3 class="beneficio__titulo">ESPECIALISTAS</h3>
+            <p class="beneficio__texto">Equipe especializada, com profissionais experientes. Testamos todos os produtos antes do lançamento.</p>
+        </div>
+    </div>
+</section>
+<section class="sobre">
+    <div class="container sobre__container">
+        <div class="sobre__conteudo">
+            <h2 class="sobre__titulo">SOBRE</h2>
+            <p class="sobre__subtitulo">Criamos aplicativos personalizados de maneira diferente e para todxs!</p>
+            <p class="sobre__texto">
+                Preocupados com o modelo atual em que um aplicativo é criado entregue e a manutenção é vista como um custo extra para o cliente, decidimos criar um novo modelo de negócio, em que você assina nosso serviço, nós criamos o aplicativo e a manutenção já é inclusa no serviço. Dessa maneira você não se preocupa com atualização, é tudo por nossa conta.
+            </p>
+            <p class="sobre__destaque">Contamos com uma equipe especializada e exclusiva para projetos incríveis!</p>
+            
+            <div class="sobre__plataformas">
+                <img src="img/logo-android.svg" alt="Android" class="plataforma__icone">
+                <img src="img/logo-blackberry.svg" alt="Blackberry" class="plataforma__icone">
+                <img src="img/logo-apple.svg" alt="Apple" class="plataforma__icone">
+                <img src="img/logo-windows.svg" alt="Windows" class="plataforma__icone">
+            </div>
+            <p class="sobre__plataformas-texto">Desenvolvemos aplicativos para todas as plataformas</p>
+        </div>
+        
+        <div class="sobre__imagem-bloco">
+            <img src="img/sobre-imagem.jpg" alt="Profissionais trabalhando" class="sobre__imagem">
+        </div>
+    </div>
+</section>
+<section class="planos">
+    <h2 class="planos__titulo-geral">PLANOS</h2>
+    <div class="container planos__container">
+        
+        
+        <div class="plano__card plano__card--start">
+            <h3 class="plano__nome plano__nome--start">Start</h3>
+            <div class="plano__preco plano__preco--start">R$ 500</div>
+            <ul class="plano__recursos">
+                <li>5 manutenções mensais</li>
+                <li>App SEO</li>
+                <li>1 sistema operacional</li>
+            </ul>
+            <a href="#" class="plano__botao plano__botao--start">Assinar plano</a>
+        </div>
+
+        <div class="plano__card plano__card--ultra">
+            <h3 class="plano__nome plano__nome--ultra">Ultra</h3>
+            <div class="plano__preco plano__preco--ultra">R$ 1500</div>
+            <ul class="plano__recursos">
+                <li>20 manutenções mensais</li>
+                <li>App SEO</li>
+                <li>4 sistemas operacionais</li>
+                <li>24h de atendimento</li>
+            </ul>
+            <a href="#" class="plano__botao plano__botao--ultra">Assinar plano</a>
+        </div>
+
+        <div class="plano__card plano__card--mega">
+            <h3 class="plano__nome plano__nome--mega">Mega</h3>
+            <div class="plano__preco plano__preco--mega">R$ 1000</div>
+            <ul class="plano__recursos">
+                <li>10 manutenções mensais</li>
+                <li>App SEO</li>
+                <li>2 sistemas operacionais</li>
+            </ul>
+            <a href="#" class="plano__botao plano__botao--mega">Assinar plano</a>
+        </div>
+
+    </div>
+</section>

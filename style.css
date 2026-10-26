@@ -105,10 +105,11 @@
     background-size: contain;
 }
 
-/
+
 .beneficio__icone--tempo { background-image: url('img/icone-tempo.svg'); }
 .beneficio__icone--foco { background-image: url('img/icone-foco.svg'); }
 .beneficio__icone--especialistas { background-image: url('img/icone-especialistas.svg'); }
+
 
 .beneficio__titulo {
     color: #1b2229;
@@ -214,7 +215,6 @@
     gap: 2rem;
 }
 
-/* Estrutura Base do Card */
 .plano__card {
     background-color: #ffffff;
     border-radius: 4px;

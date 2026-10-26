@@ -39,8 +39,7 @@
 
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/fundo-hero.jpg') no-repeat center center/cover;
-    height: 70vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bg-intro.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;

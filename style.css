@@ -105,9 +105,9 @@
 }
 
 
-.beneficio__icone--tempo { background-image: url('img/icone-tempo.svg'); }
-.beneficio__icone--foco { background-image: url('img/icone-foco.svg'); }
-.beneficio__icone--especialistas { background-image: url('img/icone-especialistas.svg'); }
+.beneficio__icone--tempo { background-image: url('img/icone-relogio.png'); }
+.beneficio__icone--foco { background-image: url('img/icone-foco.png'); }
+.beneficio__icone--especialistas { background-image: url('img/icone-especialistas.png'); }
 
 
 .beneficio__titulo {

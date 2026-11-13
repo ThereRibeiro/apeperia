@@ -1,4 +1,4 @@
-* {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -390,156 +390,118 @@ main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, .3); 
   outline: 0;
 }
-
-.dialogNewsletter {
-  display: none;
+.secaoDestaques-destaque-titulo {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.2em
 }
 
-.dialogNewsletter--aberto {
+.secaoDestaques-destaque-img {
+  width: 100%;
   display: block;
 }
 
-.dialogNewsletter-body {
-  font-size: 18px;
-  border-radius: 8px;
-  background-color: #fff;
-  border: 1px solid #8D8D8D;
-  padding: 3em 1.5em 1.5em 1.5em;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
-  position: fixed;
+.secaoDestaques-form label {
   display: inline-block;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%,-52%);
-  z-index: 3;
-  transition: .3s ease-in;
-  color: #222;
-  width: 300px;
-  max-width: 533px;
+}
+
+.secaoDestaques-form-botao {
+  max-width: 20em;
+  margin-top: 1em;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  color: #B72E2E;
+  border: 1px solid #B72E2E;
+}
+
+.secaoDestaques-form-botao:hover,
+.secaoDestaques-form-botao:focus {
+  color: #fff;
+  background-color: #B72E2E;
+}
+.secaoContato {
+  background-color: #F7F4F4;
+  text-align: center;
   text-align: left;
 }
 
-.dialogNewsletter-overlay {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, .4);
-}
-
-.overlayDialog + .dialogNewsletter {
-  display: block;
-  transform: translate(-50%,-50%);
-}
-
-.dialogNewsletter-titulo {
-  font-size: 1.8em;
-  line-height: 1;
-}
-
-.dialogNewsletter-texto {
-  font-size: 1em;
-  margin-bottom: 1.5em;
-  margin-top: 1em;
-  font-weight: normal;
-}
-
-.dialogNewsletter-label {
-  position: absolute;
-  z-index: -1;
-  left: -9999px;
-}
-
-.dialogNewsletter-campo {
-  font-size: 1em;
-  border-radius: 8px;
-  border: 1px solid #5E5E5E;
-  padding: 8px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-  min-width: 245px;
-}
-
-.dialogNewsletter-btn {
-  vertical-align: top;
-  text-indent: -9999px;
-  border-radius: 8px;
-  border: 1px solid #FF1242;
-  padding: 8px;
-  width: 100%;
-  height: 3.1em;
-  background: url(../img/email.png) no-repeat center; 
-  transition: .2s ease-in;
-}
-
-.dialogNewsletter-btn:hover,
-.dialogNewsletter-btn:focus {
-  background-color: #EB5757;
-  cursor: pointer;
-  background-image: url(../img/email-hover.png);
-}
-
-.dialogNewsletter-fechar {
-  position: absolute;
-  background-color: transparent;
-  transform: translate(50%, 50%) scale(1.4);
-  top: -5px;
-  right: 25px;
-  width: 32px;
-  height: 32px;
-  border: 0;
-  border: 1px solid;
-  overflow: hidden;
-  color: transparent;
-  font-size: 0;
-}
-
-.dialogNewsletter-fechar:before {
-  content: 'x';
-  color: #666;
-  width: 32px;
-  height: 32px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  font-size: 20px;
+.secaoContato-titulo{
+ margin-top: 1em;
   font-weight: bold;
-
+  font-size: 1.5em;
+  text-align: center;
 }
 
-.dialogNewsletter-fechar:hover:before,
-.dialogNewsletter-fechar:focus:before {
-  color: #ce3434;  
-  cursor: pointer;
+.secaoContato-wink {
+  color: #EB5757;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-@media (min-width: 830px) {
-
-  .dialogNewsletter-body {
-    width: 533px;
-  }  
-
-  .dialogNewsletter-form {
-    display: flex;
-    flex-wrap: nowrap
-  }
-
-  .dialogNewsletter-campo {
-    flex-basis: 80%;
-  }
-
-  .dialogNewsletter-btn {
-    flex-basis: 20%;
-    height: 3.1em;
-  }
-
+.secaoContato-form-fieldset {
+  border: 0;
 }
+
+.secaoContato-form-legend {
+  max-width: 300px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.secaoContato-form-cta {
+  width: 100%;
+  margin-top: 1em;
+  display: block;
+  background: transparent;
+  color: #B72E2E;
+  border: 1px solid #B72E2E;
+}
+.secaoContato-form-cta:hover,
+.secaoContato-form-cta:focus {
+  color: #fff;
+  background-color: #B72E2E;
+}
+.formContato {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.formContato-validacao {
+  display: block;
+  text-align: left;
+}
+
+.formContato-cta {
+  width: 100%;
+  margin: .5em 0;
+}
+
+.formContato-cta {
+  margin-top: 1em;
+  display: inline-block;
+  background: transparent;
+  color: #B72E2E;
+  border: 1px solid #B72E2E;
+  width: 100%;
+}
+
+.formContato-cta:hover,
+.formContato-cta:focus {
+  color: #fff;
+  background-color: #B72E2E;
+}
+
+.formContato-endereco {
+  color: #666;
+  margin: 1em 0;
+  text-align: center;
+}
+
+
 .contatoCampo {
   margin: .8em auto;
   max-width: 600px;
@@ -584,12 +546,12 @@ main {
   display: block;
   width: 100%;
   text-align: left;
-}
+} 
 
 .contatoCampo label {
   margin-bottom: 5px;
   margin-left: 8px;
-}
+} 
 
 .contatoCampo input,
 .contatoCampo textarea {
@@ -599,18 +561,18 @@ main {
   border-radius: 8px;
   border: 2px solid #ccc;
   outline: 0;
-}
+} 
 
 .contatoCampo input:focus,
 .contatoCampo textarea:focus {
   border: 2px solid #222;
-}
+} 
 
 .contatoCampo-campoDesabilitado {
   background-color: #ddd;
 }
 
-.contatoCampo-msg,
+.contatoCampo-msg, 
 .formContato-validacao {
   margin-left: 4px;
   margin-top: 4px;

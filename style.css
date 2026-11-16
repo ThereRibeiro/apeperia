@@ -612,8 +612,10 @@ main {
   transform: translateY(112%) scale(.65);
   background-image: url(validacao-erro.png);
 }
-background-image:url(twitter.png),
+.rodape-social-link--twitter {
+    background-image: url(twitter.png);
 }
+
 .rodape-social-link--instagram{
   background-image: url(instagram.png);
 }
